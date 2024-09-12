@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body-hero{
+    background-color: #1f2937;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #838383;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.header{
+    flex-direction: column;
+    padding: 8px 200px 26px;
+    
+}
+.hero-text{
+    font-size: 18px;
+    color: #676768;
+    display: flex;
+    max-width: 400px;
+    height: auto;
+}
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    max-width: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.button-hero{
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 24px;
+    margin:  4px 12px 0px 0px;
+    border: black 2px;
+    border-radius: 6px;
+}
+
+
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    margin: 20px;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937 ;
+}
+
+.card-main{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px;
+    padding: 0px;
+    gap: 100px;
+    flex-direction: row;
+}
+.border{
+    border: #3882f6 5px solid;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+.text-main{
+    display: flex;
+    justify-content: center;
+    margin: 6px;
+}
+.container-quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: "light italic";
+    display: flex;
+}
+.text-quote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 160px;
+}
+.originator-quote{
+    font-weight: 700;
+    display: flex;
+    margin: 12px;
+    margin-left: auto;
+}
+.container-add{
+    margin: 80px 200px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+}
+.message{
+    margin: 40px;
+    flex-direction: column;
+}
+.button-add{
+    margin-left: auto;
+    margin-right: 80px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: #e5e7eb 2px solid;
+    border-radius: 10%;
+    padding: 4px 10px;
+    display: flex;
+    font-weight: 600;
+
+}
+.more-info{
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: #e5e7eb;
+}
+.text-add{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 26px;
+}
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
